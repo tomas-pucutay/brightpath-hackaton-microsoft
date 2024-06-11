@@ -55,7 +55,7 @@ Variables obtained from an Azure AI Service (multi-service account) resource.
 Variables obtained when creating a language resource from https://language.cognitive.azure.com/:
 A Conversational Language Understanding project must be created, and the name goes in AZUREAI_CLU_PROJECT_NAME.
 Two intents "get_note" and "infer_text" must be generated.
-Training was conducted with 50 Utterances in English (US), details in the PPT (slide X).
+Training was conducted with 50 Utterances in English (US), details in the PPT (slide 10).
 Training is performed, followed by deployment, and the deployment name goes in AZUREAI_CLU_DEPLOYMENT_NAME.
 The key and endpoint are obtained from the Language resource created through the Azure Portal.
 - AZUREAI_CLU_KEY
