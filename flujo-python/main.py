@@ -57,7 +57,7 @@ def main():
     azure_openai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     azure_openai_deploy = os.getenv("AZURE_OPENAI_DEPLOY")
     bing_api_key = os.getenv("BING_API_KEY")
-    bing_endpoint = os.getenv("BING_API_ENDPOINT") + "v7.0/videos/search"
+    bing_endpoint = os.getenv("BING_API_ENDPOINT")
 
     # All the credentials
     azure_speech_config = speechsdk.SpeechConfig(subscription, region)
