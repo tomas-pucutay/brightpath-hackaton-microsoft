@@ -1,4 +1,5 @@
 ## BrightPath - Server-side only usage (via Python)
+Path: /flujo-python
 
 Interactive reading assistant that allows the user to manage states while listening to a reading. It provides the ability to pause (Spacebar), resume (Control), and finish (Enter). At the pause moment, listen carefully to the voice guidance of the assistant to prompt you to save your own note or ask questions about the text that has already been read, so that you can save what is most important to you. Upon audio completion, the assistant will generate a list of notes, analyze them, and suggest additional videos as educational material to complement your studies.
 
@@ -66,7 +67,7 @@ The name is placed in AZURE_OPENAI_DEPLOY, and the rest is obtained directly fro
 - AZURE_OPENAI_ENDPOINT
 - AZURE_OPENAI_DEPLOY
 
-Variables obtained from a Bing Search resource
+Variables obtained from a Bing Search resource.
 - BING_API_ENDPOINT
 - BING_API_KEY
 
