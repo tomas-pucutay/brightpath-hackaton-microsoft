@@ -1,18 +1,17 @@
 ## BrightPath - Client-Server usage (via Javascript & Python)
 Path: /client-server
 
-Interactive reading assistant that allows the user to manage states while listening to a reading. It provides the ability to pause (Spacebar), resume (Control), and finish (Enter). At the pause moment, listen carefully to the voice guidance of the assistant to prompt you to save your own note or ask questions about the text that has already been read, so that you can save what is most important to you. Upon audio completion, the assistant will generate a list of notes, analyze them, and suggest additional videos as educational material to complement your studies.
-
 ### Technical details
 * Azure AI services:
   * Speech Synthesizer & Recognizer.
   * Text analytics (Keywords) & Text Translation.
   * Conversational Language Understanding.
   * Azure OpenAI.
+  * Bing search (Video)
 * Langchain / OpenAI.
 * Pyaudio.
+* Flask (Python server) + Websockets
 * Javascript + HTML.
-* Websockets.
 
 ### How to start
 
