@@ -7,10 +7,7 @@ Our solution consists of 2 directories.
 To know about how to execute each one, enter to the README inside each directory for detailed instructions.
 
 * flujo-python: Complete logic to use the assistant from the terminal.
-  * Link to video demo: (WORK IN PROGRESS)
-
 * client-server: Complete logic to use the assistant through a web client communicating with a server.
-  * Link to video demo: (WORK IN PROGRESS)
 
 ### Motivations
 

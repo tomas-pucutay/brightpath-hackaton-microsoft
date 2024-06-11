@@ -90,7 +90,9 @@ class TextHandler:
             intent = "get_note"
 
         result = self.handle_intent(intent, query, chunk_text, translator, synthesizer, recognizer, extractor)
-        self.notes.append(result)
+        print("Note saved: ", result)
+        if result is not None:
+            self.notes.append(result)
         self.last_pause_position = self.text_position
         help_text_saved_note = self.translator.translate(help_text_saved_note, self.lang_val)
         synthesizer.speak_text(make_ssml(help_text_saved_note, self.lang_key))
