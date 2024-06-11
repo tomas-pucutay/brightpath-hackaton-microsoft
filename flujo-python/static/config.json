@@ -1,0 +1,4 @@
+{
+    "instructions": "Change lang to the needed, e.g. Spanish {'es-ES':'es'}, English {'en-US':'en'}, French {'fr-FR':'fr'}, Portuguese {'pt-BR':'pt'}",
+    "lang": "{'es-ES':'es'}"
+}
